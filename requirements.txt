@@ -1,0 +1,10 @@
+torch==2.8.0
+torchvision
+transformers==4.51.3
+Pillow
+param
+scipy
+black
+einops
+matplotlib
+gradio
