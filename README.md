@@ -70,4 +70,8 @@ Upon successful compilation of the frontend assets and loading of the model chec
 - Evaluation Graph State: The script explicitly calls `model.eval()` post-initialization. This locks the computation graph, disabling dynamic operations such as Dropout and Batch Normalization, which is critical for consistent inference metrics.
 
 ## Licensing
-The distribution, modification, and deployment of this codebase are strictly governed by the constraints defined in the `LICENSE.txt` document provided in the root directory. Review these terms thoroughly prior to any commercial application or integration.
+The source code, associated logic matrices, and computational pipelines contained within this repository are distributed under the terms of the **Apache License, Version 2.0**. 
+
+Under this license, users are granted perpetual, worldwide, non-exclusive permissions to reproduce, prepare derivative works of, publicly display, publicly perform, sublicense, and distribute the work and such derivative works in Source or Object form.
+
+A complete and binding copy of the Apache 2.0 agreement is permanently retained within the root directory of this repository (`LICENSE.txt`). Any entity intending to deploy, mutate, or commercially leverage this system must ensure strict compliance with the definitions, conditions, and limitations of liability stipulated therein.
