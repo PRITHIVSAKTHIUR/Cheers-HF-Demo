@@ -2,6 +2,8 @@
 
 The Cheers-HF-Demo is an advanced, highly optimized full-stack web application built on the Gradio framework, engineered to interface seamlessly with the ai9stars/Cheers multimodal checkpoint. This repository provides a robust operational frontend that exposes the extensive capabilities of a state-of-the-art Vision-Language Model (VLM). Designed for high-performance execution environments, the application natively supports complex generative tasks spanning Text-to-Image synthesis, Image-to-Text comprehension, and direct Text-to-Text language modeling. By abstracting the intricacies of tensor manipulation, custom prompt templating, and hardware offloading, this repository serves as a foundational blueprint for deploying large-scale multimodal architectures into interactive, user-facing environments.
 
+<img width="1920" height="1596" alt="Screenshot 2026-03-23 at 17-08-00 Cheers HF Demo - a Hugging Face Space by prithivMLmods" src="https://github.com/user-attachments/assets/19e7b7a5-f046-4155-832b-2a8ab03b3e43" />
+
 ## Core Architecture and Execution Pipeline
 The computational backbone of this application relies on the Hugging Face `transformers` library, explicitly utilizing the `AutoModelForCausalLM` and `AutoProcessor` classes. The `ai9stars/Cheers` checkpoint inherently dictates a causal language modeling approach, augmented with specialized projection layers to handle interleaved visual and textual modalities.
 
